@@ -30,7 +30,7 @@ Pastikan sudah punya:
 
 1. **Clone repositori**:
 ```bash
-git clone https://github.com/username/health-tracker.git
+git clone https://github.com/Fth87/health_tracker.git
 cd health-tracker
 ```
 2. **Buat file .env untuk menyimpan API Key**:
@@ -74,19 +74,19 @@ python main.py
 │   ├── calculation_service.py
 │   └── health_service.py
 ├─ tests/                    
-|   ├── __init__.py
-|   └── test.py
+│   ├── __init__.py
+│   └── test.py
 ├── utils/
 │   ├── __init__.py
 │   ├── ai_client.py
 │   └── time_utils.py
 ├── views/                    
-|   ├── __init__.py
-|   ├── activity_view.py
-|   ├── input_view.py
-|   ├── loading_view.py
-|   ├── output_view.py
-|   └── welcome_view.py
+│   ├── __init__.py
+│   ├── activity_view.py
+│   ├── input_view.py
+│   ├── loading_view.py
+│   ├── output_view.py
+│   └── welcome_view.py
 ├── .env
 ├── .gitignore
 ├── main.py                   
